@@ -7,7 +7,7 @@
 [ext_resource path="res://fonts/new_dynamicfont.tres" type="DynamicFont" id=5]
 [ext_resource path="res://fonts/new_dynamicfont_32.tres" type="DynamicFont" id=6]
 
-[sub_resource type="RectangleShape2D" id=2]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 117.405 )
 
 [node name="Node2D" type="Node2D"]
@@ -25,7 +25,7 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Limite Lateral Esq"]
 position = Vector2( 20.577, 169.76 )
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="ColorRect" type="ColorRect" parent="Limite Lateral Esq"]
 margin_left = 11.4031
@@ -47,7 +47,7 @@ rect_scale = Vector2( 0.452302, 5.86197 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Limite Lateral Dir"]
 position = Vector2( 20.577, 169.76 )
-shape = SubResource( 2 )
+shape = SubResource( 1 )
 
 [node name="Background" type="AudioStreamPlayer2D" parent="."]
 position = Vector2( 182.78, 150.044 )
@@ -84,46 +84,46 @@ text = "Pontos: 0"
 editor/display_folded = true
 
 [node name="Local1" type="Position2D" parent="Locais"]
-position = Vector2( 246.276, 319.427 )
+position = Vector2( 246.276, 339.275 )
 
 [node name="Local2" type="Position2D" parent="Locais"]
-position = Vector2( 314.55, 285.29 )
+position = Vector2( 314.55, 305.138 )
 
 [node name="Local3" type="Position2D" parent="Locais"]
-position = Vector2( 396.48, 256.517 )
+position = Vector2( 396.48, 276.365 )
 
 [node name="Local4" type="Position2D" parent="Locais"]
-position = Vector2( 446.71, 257.005 )
+position = Vector2( 446.71, 276.853 )
 
 [node name="Local5" type="Position2D" parent="Locais"]
-position = Vector2( 628.125, 208.237 )
+position = Vector2( 628.125, 228.085 )
 
 [node name="Local6" type="Position2D" parent="Locais"]
-position = Vector2( 568.141, 207.262 )
+position = Vector2( 568.141, 227.11 )
 
 [node name="Local7" type="Position2D" parent="Locais"]
-position = Vector2( 682.745, 287.728 )
+position = Vector2( 682.745, 307.576 )
 
 [node name="Local8" type="Position2D" parent="Locais"]
-position = Vector2( 603.254, 269.684 )
+position = Vector2( 603.254, 289.532 )
 
 [node name="Local9" type="Position2D" parent="Locais"]
-position = Vector2( 557.9, 271.147 )
+position = Vector2( 557.9, 290.995 )
 
 [node name="Local10" type="Position2D" parent="Locais"]
-position = Vector2( 530.59, 271.147 )
+position = Vector2( 530.59, 290.995 )
 
 [node name="Local11" type="Position2D" parent="Locais"]
-position = Vector2( 694.449, 351.614 )
+position = Vector2( 694.449, 371.462 )
 
 [node name="Local12" type="Position2D" parent="Locais"]
-position = Vector2( 746.143, 398.431 )
+position = Vector2( 746.143, 418.279 )
 
 [node name="Local13" type="Position2D" parent="Locais"]
-position = Vector2( 587.161, 352.102 )
+position = Vector2( 587.161, 371.95 )
 
 [node name="Local14" type="Position2D" parent="Locais"]
-position = Vector2( 409.159, 345.762 )
+position = Vector2( 409.159, 365.61 )
 
 [node name="TimerNewCoin" type="Timer" parent="."]
 
